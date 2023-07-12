@@ -1,3 +1,4 @@
+![cover_photo](https://github.com/just-monte/Capstone/blob/756e9783d615090908e119220c66c5f51b3359dd/README_files/cover_photo.png)
 # Capstone: Predicting Student Success 
 According to the Education Data Initiative, [EDI](https://educationdata.org/college-dropout-rates#:~:text=In%20the%20United%20States%2C%20the,college%20dropout%20rate%20at%2054%25), about 40% of undergraduates drop out. First-year undergraduates have a 12-month dropout rate of 24%. College dropouts on average make 32% less than those with bachelor's degrees and are 19% more likely to be unemployed than someone with a degree. In 2020, 39 million Americans dropped out of college, and only 944,200 re-enrolled during the fall.
 
@@ -46,7 +47,7 @@ After hyperparameter tuning, the best model was the Random Forest Classifier wit
 
 Based on the Random Forest model, the feature with the most importance was feature 30, "Curricular units 2nd sem (approved)". Feature 24, " Curricular units 1st sem (approved)", and feature 31, "Curricular units 2nd sem (grade)", tied for second. All of these features indicated semester grades as a major indicator.
 
-
+![](https://github.com/just-monte/Capstone/blob/756e9783d615090908e119220c66c5f51b3359dd/README_files/Model_1.png)
 
 These findings were not surprising as grades typically do play an important role in whether or not someone will  graduate. I decided to take a closer look at the data without the semester grades included to see what other driving factors play a role. Based on the new model, feature 12 “Admission grade” was highest in importance. Feature 6, "Previous qualification (grade)", and feature 19, "Age at enrollment", were also of high importance. With feature 6 edging out feature 19 by 0.00112. Other features worth noting were feature 3, "Course", and feature 16, "Tuition fees up to date". From these findings, one can see that whether a student graduates is based on more than just grades but also other external factors. 
 
